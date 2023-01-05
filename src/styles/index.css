@@ -1,0 +1,85 @@
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(50,50,50,1) 11%, rgba(60,84,87,1) 87%);
+  color: white;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 37.5px;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: center;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+div.temporizador {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+}
+
+p {
+  padding: 0px;
+  margin-top: 140px;
+  align-items: center;
+  margin-left: -117px;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+
+  position: relative;
+  margin-left: 49px;
+}
+
+.logo svg {
+  position: absolute;
+  width: 45%;
+}
+
+.logo svg:nth-child(1) {
+  right:0;
+  bottom: 0;
+}
+.logo svg:nth-child(2) {
+  left:0;
+  bottom: 0;
+}
+.logo svg:nth-child(3) {
+  left:0;
+  top: 0;
+}
+.logo svg:nth-child(4) {
+  right:0;
+  top: 0;
+}
+
+
+/*
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398.96 400.9"><polyline points="352.5 0 352.5 352.5 0 352.5" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="100" stroke-dasharray="799 800"/></svg>
+
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403.09 400.9"><polyline points="403.1 351.25 50.59 351.25 50.59 -1.25" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="100" stroke-dasharray="799 800"/></svg>
+
+
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398.96 400.9"><polyline points="46.46 400.9 46.46 48.4 398.96 48.4" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="100" stroke-dasharray="799 800"/></svg>
+
+
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398.96 400.9"><polyline points="0 46.65 352.5 46.65 352.5 399.15" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="100" stroke-dasharray="799 800"/></svg>
+
+*/
